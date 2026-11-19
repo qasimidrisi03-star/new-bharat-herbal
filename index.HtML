@@ -1,0 +1,701 @@
+!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Bharat Health Herbal Care | न्यू भारत आयुर्वेदिक यूनानी जड़ी बूटी भंडार</title>
+  <meta name="description" content="New Bharat Health Herbal Care (न्यू भारत आयुर्वेदिक यूनानी जड़ी बूटी भंडार) - नहटौर रोड, एसबीआई के सामने, कोतवाली देहात, ज़िला बिजनौर - 246764। कच्ची जड़ी-बूटियां, आयुर्वेदिक व यूनानी औषधियां और परामर्श। संपर्क: 6395842262।" />
+  <style>
+    :root {
+      --forest: #143326;
+      --forest-dark: #0c2118;
+      --gold: #c69c3b;
+      --gold-light: #e5c36d;
+      --parchment: #faf7f0;
+      --card-bg: #ffffff;
+      --text: #1f2924;
+      --muted: #5b6861;<
+      --border: #e3dccb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Segoe UI", "Noto Sans Devanagari", Arial, sans-serif;
+      background-color: var(--parchment);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    /* Header / Navbar */
+    header {
+      background-color: var(--forest);
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 3px solid var(--gold);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+    }
+
+    .nav-container {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .logo-badge {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--forest-dark);
+      font-weight: 800;
+      font-size: 1.15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 0.5px;
+      flex-shrink: 0;
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1.25;
+    }
+
+    .brand-sub {
+      font-size: 0.85rem;
+      color: #e6efe9;
+    }
+
+    nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    nav a {
+      color: #f3f7f4;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--gold-light);
+    }
+
+    .btn-wa-top {
+      background: #25d366 !important;
+      color: #0b2414 !important;
+      font-weight: 700 !important;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, var(--forest-dark) 0%, var(--forest) 65%, #1d4a37 100%);
+      color: #fff;
+      padding: 64px 20px;
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .hero-inner {
+      max-width: 1160px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    .hero-tag {
+      display: inline-block;
+      background: rgba(198, 156, 59, 0.18);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      padding: 5px 14px;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    .hero h1 {
+      font-size: 2.1rem;
+      line-height: 1.3;
+      margin-bottom: 14px;
+      color: #fff;
+    }
+
+    .hero h1 span {
+      color: var(--gold-light);
+    }
+
+    .hero p {
+      color: #dce8e1;
+      font-size: 1.02rem;
+      margin-bottom: 24px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.96rem;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.15s, opacity 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      opacity: 0.96;
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--forest-dark);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: 1.5px solid rgba(255, 255, 255, 0.55);
+    }
+
+    .hero-box {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(229, 195, 109, 0.35);
+      border-radius: 14px;
+      padding: 24px;
+    }
+
+    .hero-box h3 {
+      color: var(--gold-light);
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+    }
+
+    .hero-box ul {
+      list-style: none;
+    }
+
+    .hero-box li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 0.95rem;
+      color: #eef5f0;
+    }
+
+    .hero-box li:last-child {
+      border-bottom: none;
+    }
+
+    /* Sections */
+    section {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 34px;
+    }
+
+    .section-header h2 {
+      font-size: 1.75rem;
+      color: var(--forest);
+      margin-bottom: 8px;
+    }
+
+    .section-header p {
+      color: var(--muted);
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* Filters & Products */
+    .filter-bar {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .filter-btn {
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--forest);
+      background: #fff;
+      color: var(--forest);
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: var(--forest);
+      color: var(--gold-light);
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: 0 4px 14px rgba(20, 51, 38, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #eef5f0;
+      color: var(--forest);
+      border: 1px solid #c9dcd0;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      width: fit-content;
+    }
+
+    .card h3 {
+      font-size: 1.18rem;
+      color: var(--forest);
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin-bottom: 16px;
+    }
+
+    .card-link {
+      color: var(--forest);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 0.92rem;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      display: inline-block;
+    }
+
+    .card-link:hover {
+      color: #8f6916;
+    }
+
+    /* Experts / Doctors */
+    .expert-lead {
+      border: 2px solid var(--gold);
+      background: #fffdf8;
+    }
+
+    .role-text {
+      color: #8c6614;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
+
+    /* Appointment & Location */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    form {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 14px rgba(20, 51, 38, 0.05);
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--forest);
+      font-size: 0.93rem;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid #cbd5cf;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      color: var(--text);
+      background: #fcfdfb;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--forest);
+    }
+
+    .info-box {
+      background: var(--forest);
+      color: #fff;
+      border-radius: 12px;
+      padding: 26px;
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .info-box h3 {
+      color: var(--gold-light);
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+
+    .info-box p {
+      color: #e3ece6;
+      margin-bottom: 12px;
+      font-size: 0.96rem;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--forest-dark);
+      color: #d6e2db;
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.9rem;
+      border-top: 3px solid var(--gold);
+    }
+
+    footer strong {
+      color: var(--gold-light);
+    }
+
+    @media (max-width: 860px) {
+      .hero-inner,
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 1.65rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <div class="logo-badge">NB</div>
+        <div>
+          <div class="brand-title">New Bharat Health Herbal Care</div>
+          <div class="brand-sub">न्यू भारत आयुर्वेदिक यूनानी जड़ी बूटी भंडार</div>
+        </div>
+      </a>
+      <nav>
+        <a href="#products">उत्पाद व ब्रांड्स</a>
+        <a href="#experts">विशेषज्ञ मंडल</a>
+        <a href="#appointment">परामर्श</a>
+        <a href="#location">पता व संपर्क</a>
+        <a href="https://wa.me/916395842262?text=नमस्ते%2C%20मुझे%20New%20Bharat%20Health%20Herbal%20Care%20से%20जानकारी%20चाहिए।" target="_blank" rel="noopener" class="btn-wa-top">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag">शुद्ध आयुर्वेदिक, यूनानी एवं कच्ची जड़ी-बूटी केंद्र</div>
+        <h1><span>New Bharat Health Herbal Care</span> — न्यू भारत आयुर्वेदिक यूनानी जड़ी बूटी भंडार</h1>
+        <p>
+          पारंपरिक आयुर्वेदिक एवं यूनानी ज्ञान के साथ विश्वसनीय कच्ची जड़ी-बूटियां, औषधियां और प्रमुख ब्रांड्स के उत्पाद। कोतवाली देहात, ज़िला बिजनौर में आपका भरोसेमंद स्वास्थ्य एवं जड़ी-बूटी केंद्र।
+        </p>
+        <div class="hero-actions">
+          <a href="#appointment" class="btn btn-gold">परामर्श के लिए संपर्क करें</a>
+          <a href="#products" class="btn btn-outline">उत्पाद देखें</a>
+        </div>
+      </div>
+      <div class="hero-box">
+        <h3>हमारी प्रमुख विशेषताएं</h3>
+        <ul>
+          <li>🌿 <strong>कच्ची जड़ी-बूटियां:</strong> साबुत व शुद्ध पारंपरिक जड़ी-बूटियां</li>
+          <li>⚕️ <strong>आयुर्वेदिक व यूनानी औषधियां:</strong> विश्वसनीय स्वास्थ्य समाधान</li>
+          <li>🏷️ <strong>प्रमुख ब्रांड्स:</strong> बैद्यनाथ, डाबर, हमदर्द, रेक्स, झंडू</li>
+          <li>📍 <strong>स्थान:</strong> नहटौर रोड, एसबीआई के सामने, कोतवाली देहात (246764)</li>
+          <li>📞 <strong>संपर्क नंबर:</strong> 6395842262</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="section-header">
+      <h2>उत्पाद एवं प्रमुख ब्रांड्स</h2>
+      <p>श्रेणी या ब्रांड चुनकर हमारे उत्पादों की सूची देखें और सीधे WhatsApp पर पूछताछ करें।</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">सभी</button>
+      <button class="filter-btn" data-filter="raw-herbs">कच्ची जड़ी-बूटियां</button>
+      <button class="filter-btn" data-filter="ayurvedic-unani">आयुर्वेदिक व यूनानी</button>
+      <button class="filter-btn" data-filter="brands">प्रमुख ब्रांड्स</button>
+    </div>
+
+    <div class="grid-3" id="productGrid">
+      <!-- Products rendered via JavaScript -->
+    </div>
+  </section>
+
+  <section id="experts">
+    <div class="section-header">
+      <h2>विशेषज्ञ एवं चिकित्सक मंडल</h2>
+      <p>पारंपरिक जड़ी-बूटी परामर्श और आयुर्वेदिक व यूनानी मार्गदर्शन के लिए हमारी टीम।</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card expert-lead">
+        <div>
+          <span class="badge">मुख्य मार्गदर्शक</span>
+          <h3>हकीम हाजी नज़ाकत हुसैन</h3>
+          <div class="role-text">संस्थापक एवं वरिष्ठ जड़ी-बूटी व यूनानी विशेषज्ञ</div>
+          <p>कच्ची जड़ी-बूटियों की पहचान, शुद्धता और पारंपरिक यूनानी व आयुर्वेदिक नुस्खों के अनुभवी मार्गदर्शक।</p>
+        </div>
+        <a href="https://wa.me/916395842262?text=नमस्ते%2C%20मुझे%20हकीम%20हाजी%20नज़ाकत%20हुसैन%20जी%20से%20परामर्श%20के%20लिए%20संपर्क%20करना%20है।" target="_blank" rel="noopener" class="card-link">WhatsApp पर संपर्क करें →</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">आयुर्वेद चिकित्सक</span>
+          <h3>डॉ. इमरान अंसारी (BAMS, MD)</h3>
+          <div class="role-text">आयुर्वेद परामर्श</div>
+          <p>आयुर्वेदिक सिद्धांतों के अनुसार स्वास्थ्य परामर्श और जीवनशैली मार्गदर्शन।</p>
+        </div>
+        <a href="https://wa.me/916395842262?text=नमस्ते%2C%20मुझे%20डॉ.%20इमरान%20अंसारी%20जी%20से%20परामर्श%20के%20लिए%20पूछताछ%20करनी%20है।" target="_blank" rel="noopener" class="card-link">WhatsApp पर संपर्क करें →</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="badge">चिकित्सक परामर्श</span>
+          <h3>डॉ. नगमा</h3>
+          <div class="role-text">स्वास्थ्य एवं परामर्श सेवाएं</div>
+          <p>मरीजों को सहज व स्पष्ट स्वास्थ्य परामर्श और मार्गदर्शन उपलब्ध कराना।</p>
+        </div>
+        <a href="https://wa.me/916395842262?text=नमस्ते%2C%20मुझे%20डॉ.%20नगमा%20जी%20से%20परामर्श%20के%20लिए%20पूछताछ%20करनी%20है।" target="_blank" rel="noopener" class="card-link">WhatsApp पर संपर्क करें →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="appointment">
+    <div class="section-header">
+      <h2>परामर्श एवं पूछताछ फ़ॉर्म</h2>
+      <p>अपना विवरण भरें — सबमिट करते ही आपका संदेश सीधे WhatsApp (6395842262) पर तैयार हो जाएगा।</p>
+    </div>
+
+    <div class="two-col" id="location">
+      <form id="appointmentForm">
+        <div class="form-group">
+          <label for="patientName">आपका नाम *</label>
+          <input type="text" id="patientName" name="patientName" placeholder="अपना पूरा नाम लिखें" required />
+        </div>
+
+        <div class="form-group">
+          <label for="patientPhone">मोबाइल नंबर *</label>
+          <input type="tel" id="patientPhone" name="patientPhone" placeholder="अपना 10 अंकों का मोबाइल नंबर लिखें" required />
+        </div>
+
+        <div class="form-group">
+          <label for="expertSelect">किससे परामर्श / पूछताछ करनी है?</label>
+          <select id="expertSelect" name="expertSelect">
+            <option value="हकीम हाजी नज़ाकत हुसैन">हकीम हाजी नज़ाकत हुसैन</option>
+            <option value="डॉ. इमरान अंसारी (BAMS, MD)">डॉ. इमरान अंसारी (BAMS, MD)</option>
+            <option value="डॉ. नगमा">डॉ. नगमा</option>
+            <option value="उत्पाद / जड़ी-बूटी पूछताछ">उत्पाद / जड़ी-बूटी पूछताछ</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="messageBox">संदेश / विवरण</label>
+          <textarea id="messageBox" name="messageBox" rows="4" placeholder="अपनी आवश्यकता या उत्पाद का नाम लिखें..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width: 100%;">WhatsApp पर संदेश भेजें (6395842262)</button>
+      </form>
+
+      <div class="info-box">
+        <h3>हमारा केंद्र (कोतवाली देहात)</h3>
+        <p><strong>प्रतिष्ठान:</strong> New Bharat Health Herbal Care (न्यू भारत आयुर्वेदिक यूनानी जड़ी बूटी भंडार)</p>
+        <p><strong>पता:</strong> नहटौर रोड, एसबीआई के सामने, कोतवाली देहात, ज़िला बिजनौर, उत्तर प्रदेश - 246764</p>
+        <p><strong>फ़ोन / WhatsApp:</strong> <a href="tel:6395842262" style="color: #e5c36d; text-decoration: none;">6395842262</a></p>
+        <div style="margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap;">
+          <a href="tel:6395842262" class="btn btn-gold">अभी कॉल करें</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=नहटौर+रोड+एसबीआई+के+सामने+कोतवाली+देहात+बिजनौर+246764" target="_blank" rel="noopener" class="btn btn-outline">Google Maps देखें</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>New Bharat Health Herbal Care</strong> (न्यू भारत आयुर्वेदिक यूनानी जड़ी बूटी भंडार)</p>
+    <p>नहटौर रोड, एसबीआई के सामने, कोतवाली देहात, ज़िला बिजनौर - 246764 | संपर्क: 6395842262</p>
+  </footer>
+
+  <script>
+    const products = [
+      {
+        name: "शुद्ध कच्ची जड़ी-बूटियां (Raw Herbs)",
+        category: "raw-herbs",
+        badge: "कच्ची जड़ी-बूटियां",
+        desc: "पारंपरिक काढ़े, चूर्ण और घरेलू नुस्खों के लिए साबुत व चुनिंदा कच्ची जड़ी-बूटियां।"
+      },
+      {
+        name: "आयुर्वेदिक चूर्ण, वटी व आसव-अरिष्ट",
+        category: "ayurvedic-unani",
+        badge: "आयुर्वेदिक व यूनानी",
+        desc: "शास्त्रीय आयुर्वेदिक व यूनानी फॉर्मूलेशन — पाचन, ऊर्जा और दैनिक स्वास्थ्य देखभाल के लिए।"
+      },
+      {
+        name: "यूनानी माजून, खमीरा व शर्बत",
+        category: "ayurvedic-unani",
+        badge: "आयुर्वेदिक व यूनानी",
+        desc: "पारंपरिक यूनानी स्वास्थ्य उत्पाद और मौसमी देखभाल के लिए विश्वसनीय विकल्प।"
+      },
+      {
+        name: "बैद्यनाथ (Baidyanath) उत्पाद",
+        category: "brands",
+        badge: "प्रमुख ब्रांड्स",
+        desc: "बैद्यनाथ के लोकप्रिय आयुर्वेदिक टॉनिक, चूर्ण और स्वास्थ्य उत्पाद उपलब्ध।"
+      },
+      {
+        name: "डाबर (Dabur) उत्पाद",
+        category: "brands",
+        badge: "प्रमुख ब्रांड्स",
+        desc: "डाबर के विश्वसनीय हर्बल व आयुर्वेदिक उत्पाद।"
+      },
+      {
+        name: "हमदर्द (Hamdard), रेक्स व झंडू उत्पाद",
+        category: "brands",
+        badge: "प्रमुख ब्रांड्स",
+        desc: "हमदर्द, रेक्स और झंडू के चयनित आयुर्वेदिक व यूनानी उत्पाद।"
+      }
+    ];
+
+    const productGrid = document.getElementById("productGrid");
+    const filterBtns = document.querySelectorAll(".filter-btn");
+
+    function renderProducts(filter) {
+      productGrid.innerHTML = "";
+      const filtered = filter === "all"
+        ? products
+        : products.filter(item => item.category === filter);
+
+      filtered.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+        const waText = encodeURIComponent(`नमस्ते, मुझे "${item.name}" के बारे में जानकारी चाहिए।`);
+        card.innerHTML = `
+          <div>
+            <span class="badge">${item.badge}</span>
+            <h3>${item.name}</h3>
+            <p>${item.desc}</p>
+          </div>
+          <a href="https://wa.me/916395842262?text=${waText}" target="_blank" rel="noopener" class="card-link">WhatsApp पर पूछताछ करें →</a>
+        `;
+        productGrid.appendChild(card);
+      });
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        filterBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        renderProducts(btn.dataset.filter);
+      });
+    });
+
+    renderProducts("all");
+
+    document.getElementById("appointmentForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const name = document.getElementById("patientName").value.trim();
+      const phone = document.getElementById("patientPhone").value.trim();
+      const expert = document.getElementById("expertSelect").value;
+      const msg = document.getElementById("messageBox").value.trim();
+
+      const text = encodeURIComponent(
+        `नमस्ते New Bharat Health Herbal Care,
+` +
+        `नाम: ${name}
+` +
+        `मोबाइल: ${phone}
+` +
+        `परामर्श/विषय: ${expert}
+` +
+        `संदेश: ${msg || "कृपया जानकारी दें।"}`
+      );
+
+      window.open(`https://wa.me/916395842262?text=${text}`, "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
